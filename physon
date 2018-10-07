@@ -1,0 +1,14 @@
+print ("끝말잇기 (1인용)")
+last = ""                                    
+while True:
+  a = input("단어 입력")                      # a안에다가 단어를 입력
+  if a in arr:                               # a가 arr안에 이미 있다면
+    print ("이미 있는 단어입니다.")
+    continue
+  if last in a[0]:                           # 시작단어가 a[0] last안에 있으면
+    arr.append(a)                            # 배열에 a를 저장
+    print (a[-1])                            # 마지막 단어를 print
+    print ("시작단어 : {0}", format(a[-1]))   # 시작단어에 format(a[-1])출력
+    last = a[-1]                             # 마지막 단어 last에 저장
+  else:
+    print ("올바르지 않은 단어입니다.")
