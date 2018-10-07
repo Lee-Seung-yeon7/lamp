@@ -1,4 +1,1 @@
 "#lamp"
-"#lamp" 
-"#lamp" 
-"#lamp" 
