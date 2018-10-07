@@ -1,0 +1,4 @@
+"#lamp"
+"#lamp" 
+"#lamp" 
+"#lamp" 
