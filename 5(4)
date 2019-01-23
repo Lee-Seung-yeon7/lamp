@@ -1,0 +1,31 @@
+#C언어 5장 4
+# 간단한 산술 프로그램
+
+#include <stdio.h>
+
+int main (void)
+{
+char op;
+int x,y;
+
+printf("수식을 입력하세요 : ");
+scanf("%d %c %d",&x, &op, &y);
+
+if(op == '+')
+printf("%d %op %d = %d",x,op,y,x+y);
+
+else if(op == '-')
+printf("%d %op %d = %d",x,op,y,x-y);
+
+else if(op == '*')
+printf("%d %op %d = %d",x,op,y,x*y);
+
+else if(op == '/')
+printf("%d %op %d = %d",x,op,y,x/y);
+
+else
+printf("지원되지 않은 연산자 입니다.");
+
+getchar();
+return 0;
+}
